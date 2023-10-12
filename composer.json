@@ -1,5 +1,5 @@
 {
-    "name": "branko/a-test",
+    "name": "branko-logeecom/a-test",
     "autoload": {
         "psr-4": {
             "Branko\\ATest\\": "src/"
