@@ -1,5 +1,5 @@
 {
-    "name": "branko-logeecom/a-test",
+    "name": "branko/a-test",
     "autoload": {
         "psr-4": {
             "Branko\\ATest\\": "src/"
@@ -11,5 +11,10 @@
             "email": "branko.janjic@logeecom.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "scripts": {
+        "warm-up-sequra": [
+            "@composer remove branko-logeecom/b-*"
+        ]
+    }
 }
