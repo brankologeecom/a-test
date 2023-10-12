@@ -1,0 +1,15 @@
+{
+    "name": "branko/a-test",
+    "autoload": {
+        "psr-4": {
+            "Branko\\ATest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Branko Janjic",
+            "email": "branko.janjic@logeecom.com"
+        }
+    ],
+    "require": {}
+}
