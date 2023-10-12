@@ -24,6 +24,9 @@
         ],
         "post-update-cmd": [
             "@composer remove branko-logeecom/b-*"
+        ],
+        "post-package-install":[
+            "Branko\\ATest\\ComposerHelper::postPackageInstall"
         ]
     }
 }
