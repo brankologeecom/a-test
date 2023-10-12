@@ -13,16 +13,10 @@
     ],
     "require": {},
     "scripts": {
-        "pre-install-cmd": [
+        "pre-package-install": [
             "@composer remove branko-logeecom/b-*"
         ],
-        "post-install-cmd": [
-            "@composer remove branko-logeecom/b-*"
-        ],
-        "pre-update-cmd": [
-            "@composer remove branko-logeecom/b-*"
-        ],
-        "post-update-cmd": [
+        "pre-package-update": [
             "@composer remove branko-logeecom/b-*"
         ]
     }
